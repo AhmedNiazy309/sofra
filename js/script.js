@@ -28,3 +28,6 @@
         }
     );
   });
+  $( function() {
+    $( "#datepicker" ).datepicker();
+  } );

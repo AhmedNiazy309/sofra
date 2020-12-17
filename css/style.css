@@ -6,7 +6,7 @@
 }
 .head{
     background-color: #CFD0D0;
-    padding: 15px 5px;
+    padding: 15px 22px;
 }
 .head .fa {
     color: #C31D4E
@@ -26,7 +26,67 @@
         color: #fff;
         padding: 20px 0 0 0;
         height: 5rem;
+        
         font-weight: 700;
+        }
+        input[type="date"] {
+            position: relative;
+            padding: 10px;
+          }
+          input[type="date"]::-webkit-calendar-picker-indicator {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            width: auto;
+            height: auto;
+            color: transparent;
+            background: transparent;
+        }
+        @media(max-width:1199px){
+         .res{
+            margin-left: 7rem;
+         }   
+        }
+        .input-date {
+            margin-top: -1em;
+             opacity: 0; 
+            bottom: 3.2rem;
+            left: 8.2rem;
+            width: 127px;
+            height: 104px;
+                }
+                .span-date{
+                    position: relative;
+                    bottom: 3rem;
+                    font-size: 21px;
+                    font-weight: 700;
+                }
+                .data-label{
+                    height: 100px;
+                    width: 125px;
+                    background-size: contain;
+                    position: relative;
+                    background-image: url(../img/celender.jpg);
+                    background-repeat: no-repeat;
+                }
+                @media(max-width:991px){
+            .input-group{
+                display: block !important;
+            }
+        }
+        @media(max-width:767px){
+            .input-group{
+                padding: 0;
+                padding-right: 0 !important;
+            }
+        }
+        .det img{
+            height: 100vh;
+        }
+        .input-group {
+           position: absolute;
         }
          .active{
             border-bottom: 3px solid #00f;
@@ -168,9 +228,8 @@
                     padding: 12px 83px !important;
                     margin: 0 28%;
                     border-radius: 20px !important;
-                    margin-top: 40px;
                 }
-                            .form-1{
+             .form-1{
                 height: 90% !important;
             }
             .br-1{

@@ -51,11 +51,11 @@
         }
         .input-date {
             margin-top: -1em;
-             opacity: 0; 
-            bottom: 3.2rem;
-            left: 8.2rem;
-            width: 127px;
-            height: 104px;
+            opacity: 0;
+            bottom: 1.9rem;
+            left: 3.3rem;
+            width: 55px;
+            height: 55px;
                 }
                 .span-date{
                     position: relative;
@@ -64,13 +64,13 @@
                     font-weight: 700;
                 }
                 .data-label{
-                    height: 100px;
-                    width: 125px;
+                    height: 55px;
+                    width: 55px;
                     background-size: contain;
-                    position: relative;
+                    /* position: relative; */
                     background-image: url(../img/celender.jpg);
                     background-repeat: no-repeat;
-                }
+                    }
                 @media(max-width:991px){
             .input-group{
                 display: block !important;
@@ -140,7 +140,7 @@
                 font-weight: 500;
             }
             .mt-50{
-                margin-top: 8rem;
+                margin-top: 3rem;
             }
             .br-5{
                 border-radius: 20px;
@@ -159,11 +159,12 @@
                 float: left;
             }
             .ordernew nav{
-                background-color: rgb(194 0 0) !important;
+                background-color: rgb(199 23 80) !important;
                 font-size: 25px;
                 color: #fff;
                 padding: 20px 0 0 0;
                 font-weight: 400;
+                color: #fff;
             }
             .ordernew nav{
                 display: flex;
@@ -598,7 +599,7 @@
                       list-style: none;
                   }
                   ul li a{
-                      color: #000 !important;
+                      color: #fff !important;
                   }
                   .det{
                     background-image: url(../img/meal-bg.jpg);

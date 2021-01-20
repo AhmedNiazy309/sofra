@@ -1,285 +1,370 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en" dir="rtl">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Food</title>
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/font-awesome.css">
-    <link rel="stylesheet" href="css/all.css">
-    <link rel="stylesheet" href="css/icofont.css">
-    <link rel="stylesheet" href="css/owl.carousel.css">
-    <link rel="stylesheet" href="css/owl.theme.default.css">
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-    <div class="head">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm d-inline">
-                              <a href="#">
-                                <i class="fa fa-shopping-cart fa-2x "></i>
-                              </a> 
-                              <a href="#">
-                                <i class="fa fa-user fa-2x"></i>
-                              </a>
-                                <div class="input-group mt-1 " style="display: inline;padding-right: 25px;">
-                                    <input type="search" style="
-                                    border: 0;
-                                ">
-                                    <div class="input-group-append" style="display: inline;margin-right: -43px;color: transparent;border: 0;">
-                                        <button class="btn btn-outline-secondary" type="button" id="button-addon2" style="
-                                            border: 0;
-                                        "><i class="fa fa-search" style="
-                                            margin-bottom: 10px;
-                                        "></i></button>
-                                      </div>          
-                                        </div>         
-                                           </div>
-        <div class="col-sm  text-center">
-            <img src="img/sofra logo.png" class="img-fluid mr-50p" style="width: 90px;" alt="">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://cdn.rtlcss.com/bootstrap/v4.2.1/css/bootstrap.min.css" integrity="sha384-vus3nQHTD+5mpDiZ4rkEPlnkcyTP+49BhJ4wJeJunw06ZAp+wzzeBPUXr42fi8If" crossorigin="anonymous">
+
+        <!--google fonts css-->
+        <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
+
+        <!--font awesome css-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+
+        
+        
+        <!--style css-->
+        <link rel="stylesheet" href="assets/css/style.css">
+
+        <title>Sofra</title>
+    </head>
+    <body>
+        <!--nav-->
+        <div class="nav-bar">
+            <nav class="navbar navbar-collapse-lg navbar-light">
+                <div class="right-part col-md-4">
+                    <div class="icons">
+                        <a href="cart-page.html" class="cart">
+                            <i class="fas fa-shopping-cart"></i>
+                        </a>
+                        <div class="user">
+                            <div class="dropdown">
+                                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <i class="fas fa-user-circle main-color"></i>
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <a class="dropdown-item secondary-color" href="orders-page-client.html">
+                                        <i class="fas fa-clipboard-list"></i>
+                                        <P>طلباتى</P>
+                                    </a>
+                                    <a class="dropdown-item secondary-color" href="offers-page.html">
+                                        <i class="fas fa-gift"></i>
+                                        <P>العروض</P>
+                                    </a>
+                                    <a class="dropdown-item secondary-color" href="#">
+                                        <i class="fas fa-envelope-square"></i>
+                                        <P>تواصل معنا</P>
+                                    </a>
+                                    <a class="dropdown-item secondary-color" href="my-account-page.html">
+                                        <i class="far fa-user"></i>
+                                        <P>حسابى</P>
+                                    </a>
+                                    <a class="dropdown-item secondary-color" href="#">
+                                        <i class="fas fa-sign-out-alt"></i>
+                                        <P>تسجيل الخروج</P>
+                                    </a>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="search-field">
+                        <form>
+                            <input type="text" name="search" autocomplete="off">
+                            <button type="submit">
+                                <i class="fas fa-search main-color"></i>
+                            </button>
+                        </form>
+                    </div>
                 </div>
-            <div class="col-sm">
-                <a href="#">
-                    <i class=" fa-2x fa fa-hamburger mr-52p fl" style="margin-top: 9px; "></i>    
+
+                <a class="navbar-brand col-md-4 col-6" href="index.html">
+                    <img src="imgs/sofra logo.png">
                 </a>
-                        </div>
-                </div>
-            </div>
-        </div>
-        <div class="det">
-            <div class="container">
-                <div class="text-center img-det">
-                <img src="img/burger.jpg" class="img-fluid br-5 card-img-top" alt="...">
-            </div>
-            <h3 class="text-center">بيف برجر 250 جرام</h3>
-            <p class="text-center">وجبه بيف برجر 250 جرام من اللحم المشوي مع السلطه و الصوص</p>
-            <div class="text-right">
-                <i class="fas fa-4x fa-piggy-bank"></i>
-                <span>السعر 55 ريال</span>
-                <br>
-                <br>
-                <i class="far fa-4x fa-clock"></i>
-                <span>مده تجهيز الطلب : 20 دقيقه</span>
-                <br>
-                <br>
-                <i class="fas fa-4x fa-coins"></i>
-                <span>رسوم التوصيل : 10 ريال</span>
-            </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="text-center">
-                <img src="img/Group 1039.png" class="img-fluid" alt="">
-            </div>
-        </div>
-        <div class="info">
-            <div class="container">
-                <div class="text-right">
-                    <i class="fas fa-2x fa-info-circle"></i>
-                    <span class="select fa-2x">
-                        معلومات عن المتجر
+
+                <button class="navbar-toggler col-md-4 col-6" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon">
+                        <i class="fas fa-hamburger main-color"></i>
                     </span>
+                </button>
+            
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
-            </div>
+            </nav>
         </div>
-        <div class="favor">
+
+
+        <!--intro-->
+        <div class="intro">
+            <h1>سفرة</h1>
+            <p>بتشترى ..بتبيع؟ كله عند سفرة</p>
+            <a href="login-page.html">
+                سجل الآن
+                <img src="imgs/dish.png" alt="">
+            </a>
+        </div>
+
+        <!--find-restaurants-->
+        <div class="find-restaurants">
             <div class="container">
-                <div class="site-section">
-                    <h4>&nbsp;&nbsp;&nbsp;تقييمات المستخدمين</h4>
-                    <p class="text-right lead">144 تقيم</p>
-                </div>
+                <h1>ابحث عن مطعمك المفضل</h1>
+                <div class="filter">
                     <div class="row">
-                        <div class="col-md-12">
-                            <div class="star">
-                                <div class="container">
-                                    <div class="row">
-                        <div class="col-lg-5 select">
-                            <p>
-                                بواسطه محمد محروس
-                            </p>
+                        <div class="city col-md-6">
+                            <form>
+                                <div class="form-group">
+                                    <select class="form-control" id="exampleFormControlSelect1" name="city">
+                                        <option disabled selected hidden>اختر المدينة</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5</option>
+                                    </select>
+                                    <i class="fas fa-arrow-down main-color"></i>
+                                </div>
+                            </form>
                         </div>
-                        <div class="col-lg-3">
-                            <div class="fontawesome text-center">
-                                <i class="fas fa-star d-inline text-center select"></i>
-                                <i class="fas fa-star d-inline text-center select"></i>
-                                <i class="fas fa-star d-inline text-center select"></i>
-                                <i class="fas fa-star d-inline text-center"></i>
-                                <i class="fas fa-star d-inline text-center"></i>
-                            </div>                
+                        <div class="search col-md-6">
+                            <form>
+                                <input type="text" name="search" placeholder="ابحث عن مطعمك المفضل">
+                                <i class="fas fa-search main-color"></i>
+                            </form>
                         </div>
                     </div>
-                    <h5 class="text-center" style="padding-top: 3rem;">جميل جدا و عظيم و حاجه ميت فله و عشره و اللحمه مستويه و شغل فاخر</h5>
                 </div>
-                </div>
-                    </div>
-                    <div class="col-md-12">
-                        <div class="star">
-                            <div class="container">
-                                <div class="row">
-                    <div class="col-lg-5 select">
-                        <p>
-                            بواسطه محمد محروس
-                        </p>
-                    </div>
-                    <div class="col-lg-3">
-                        <div class="fontawesome text-center">
-                            <i class="fas fa-star d-inline text-center select"></i>
-                            <i class="fas fa-star d-inline text-center select"></i>
-                            <i class="fas fa-star d-inline text-center select"></i>
-                            <i class="fas fa-star d-inline text-center"></i>
-                            <i class="fas fa-star d-inline text-center"></i>
-                        </div>                
-                    </div>
-                </div>
-                <h5 class="text-center" style="padding-top: 3rem;">جميل جدا و عظيم و حاجه ميت فله و عشره و اللحمه مستويه و شغل فاخر</h5>
-            </div>
-            </div>
-                </div>
-                <div class="col-md-12">
-                    <div class="star">
-                        <div class="container">
-                            <div class="row">
-                <div class="col-lg-5 select">
-                    <p>
-                        بواسطه محمد محروس
-                    </p>
-                </div>
-                <div class="col-lg-3">
-                    <div class="fontawesome text-center">
-                        <i class="fas fa-star d-inline text-center select"></i>
-                        <i class="fas fa-star d-inline text-center select"></i>
-                        <i class="fas fa-star d-inline text-center select"></i>
-                        <i class="fas fa-star d-inline text-center"></i>
-                        <i class="fas fa-star d-inline text-center"></i>
-                    </div>                
-                </div>
-            </div>
-            <h5 class="text-center" style="padding-top: 3rem;">جميل جدا و عظيم و حاجه ميت فله و عشره و اللحمه مستويه و شغل فاخر</h5>
-        </div>
-        </div>
-            </div>
-    </div>
-    <div class="site-section">
-        <h4>&nbsp;&nbsp;&nbsp;اضف تقييم </h4>
-    </div>
-    <div class="row">
-        <div class="col-lg-5"></div>
-        <div class="col-lg-3">
-            <div class="fontawesome text-center" style="background-color: #CFD0D0;">
-                <i class="fas fa-star d-inline text-center select"></i>
-                <i class="fas fa-star d-inline text-center select"></i>
-                <i class="fas fa-star d-inline text-center select"></i>
-                <i class="fas fa-star d-inline text-center"></i>
-                <i class="fas fa-star d-inline text-center"></i>
-            </div>                
-        </div>
-<div class="col-lg-5"></div>
-    </div>
-    <textarea name="" class=" w-100" placeholder="اضف تقييم" id="" cols="30" rows="10"></textarea>
-        <a href="#" class="btn enter2 text-center float-right">دخول</a>
-        <div class="clear_fix"></div>
-            </div>
-        </div>
-        <div class="morefood">
-            <div class="site-section">
-                <h4>&nbsp;&nbsp;&nbsp; المزيد من اكلات المطعم
-                </h4>
-            </div>   
-            <div class="picture-client">
-                <div class="container">
+                <div class="restaurants">
                     <div class="row">
-                        <div class="col-md-12">
-                <div class="owl-carousel client-carousel">
-                    <div class="item">
-                        <img src="img/erik-odiin-787777-unsplash.jpg" alt="" class="img2 img-fluid"/>
-                        <div class="over text-center">
-                            <h4>باستا</h4>
-                            <a href="#">اضغظ للتفاصيل</a>
+                        <div class="col-md-6">
+                            <div class="the-card">
+                                <a href="restaurant-client-page.html"></a>
+                                <img src="imgs/res-img.png" alt="" class="logo">
+                                <div class="info">
+                                    <h2 class="name main-color">دجاج كنتاكى</h2>
+                                    <div class="stars">
+                                        <i class="fas fa-star main-color"></i>
+                                        <i class="fas fa-star main-color"></i>
+                                        <i class="fas fa-star main-color"></i>
+                                        <i class="fas fa-star secondary-color"></i>
+                                        <i class="fas fa-star secondary-color"></i>
+                                    </div>
+                                    <div class="text">
+                                        <p class="secondary-color">الحد الأدنى للطلب: 60 ريال</p>
+                                        <p class="secondary-color">رسوم التوصيل: 10 ريال</p>
+                                    </div>
+                                </div>
+                                <div class="available">
+                                    <div class="green-circle"></div>
+                                    <p class="secondary-color">مفتوح</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="the-card">
+                                <a href="restaurant-client-page.html"></a>
+                                <img src="imgs/res-img.png" alt="" class="logo">
+                                <div class="info">
+                                    <h2 class="name main-color">دجاج كنتاكى</h2>
+                                    <div class="stars">
+                                        <i class="fas fa-star main-color"></i>
+                                        <i class="fas fa-star main-color"></i>
+                                        <i class="fas fa-star main-color"></i>
+                                        <i class="fas fa-star secondary-color"></i>
+                                        <i class="fas fa-star secondary-color"></i>
+                                    </div>
+                                    <div class="text">
+                                        <p class="secondary-color">الحد الأدنى للطلب: 60 ريال</p>
+                                        <p class="secondary-color">رسوم التوصيل: 10 ريال</p>
+                                    </div>
+                                </div>
+                                <div class="available">
+                                    <div class="green-circle"></div>
+                                    <p class="secondary-color">مفتوح</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="item">
-                        <img src="img/erik-odiin-787777-unsplash.jpg" alt="" class="img2 img-fluid"/>
-                        <div class="over text-center">
-                            <h4>باستا</h4>
-                            <a href="#">اضغظ للتفاصيل</a>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="the-card">
+                                <a href="restaurant-client-page.html"></a>
+                                <img src="imgs/res-img.png" alt="" class="logo">
+                                <div class="info">
+                                    <h2 class="name main-color">دجاج كنتاكى</h2>
+                                    <div class="stars">
+                                        <i class="fas fa-star main-color"></i>
+                                        <i class="fas fa-star main-color"></i>
+                                        <i class="fas fa-star main-color"></i>
+                                        <i class="fas fa-star secondary-color"></i>
+                                        <i class="fas fa-star secondary-color"></i>
+                                    </div>
+                                    <div class="text">
+                                        <p class="secondary-color">الحد الأدنى للطلب: 60 ريال</p>
+                                        <p class="secondary-color">رسوم التوصيل: 10 ريال</p>
+                                    </div>
+                                </div>
+                                <div class="available">
+                                    <div class="green-circle"></div>
+                                    <p class="secondary-color">مفتوح</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="the-card">
+                                <a href="restaurant-client-page.html"></a>
+                                <img src="imgs/res-img.png" alt="" class="logo">
+                                <div class="info">
+                                    <h2 class="name main-color">دجاج كنتاكى</h2>
+                                    <div class="stars">
+                                        <i class="fas fa-star main-color"></i>
+                                        <i class="fas fa-star main-color"></i>
+                                        <i class="fas fa-star main-color"></i>
+                                        <i class="fas fa-star secondary-color"></i>
+                                        <i class="fas fa-star secondary-color"></i>
+                                    </div>
+                                    <div class="text">
+                                        <p class="secondary-color">الحد الأدنى للطلب: 60 ريال</p>
+                                        <p class="secondary-color">رسوم التوصيل: 10 ريال</p>
+                                    </div>
+                                </div>
+                                <div class="available">
+                                    <div class="green-circle"></div>
+                                    <p class="secondary-color">مفتوح</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="item">
-                        <img src="img/erik-odiin-787777-unsplash.jpg" alt="" class="img2 img-fluid"/>
-                        <div class="over text-center">
-                            <h4>باستا</h4>
-                            <a href="#">اضغظ للتفاصيل</a>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="the-card">
+                                <a href="restaurant-client-page.html"></a>
+                                <img src="imgs/res-img.png" alt="" class="logo">
+                                <div class="info">
+                                    <h2 class="name main-color">دجاج كنتاكى</h2>
+                                    <div class="stars">
+                                        <i class="fas fa-star main-color"></i>
+                                        <i class="fas fa-star main-color"></i>
+                                        <i class="fas fa-star main-color"></i>
+                                        <i class="fas fa-star secondary-color"></i>
+                                        <i class="fas fa-star secondary-color"></i>
+                                    </div>
+                                    <div class="text">
+                                        <p class="secondary-color">الحد الأدنى للطلب: 60 ريال</p>
+                                        <p class="secondary-color">رسوم التوصيل: 10 ريال</p>
+                                    </div>
+                                </div>
+                                <div class="available">
+                                    <div class="green-circle"></div>
+                                    <p class="secondary-color">مفتوح</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="the-card">
+                                <a href="restaurant-client-page.html"></a>
+                                <img src="imgs/res-img.png" alt="" class="logo">
+                                <div class="info">
+                                    <h2 class="name main-color">دجاج كنتاكى</h2>
+                                    <div class="stars">
+                                        <i class="fas fa-star main-color"></i>
+                                        <i class="fas fa-star main-color"></i>
+                                        <i class="fas fa-star main-color"></i>
+                                        <i class="fas fa-star secondary-color"></i>
+                                        <i class="fas fa-star secondary-color"></i>
+                                    </div>
+                                    <div class="text">
+                                        <p class="secondary-color">الحد الأدنى للطلب: 60 ريال</p>
+                                        <p class="secondary-color">رسوم التوصيل: 10 ريال</p>
+                                    </div>
+                                </div>
+                                <div class="available">
+                                    <div class="green-circle"></div>
+                                    <p class="secondary-color">مفتوح</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="item">
-                        <img src="img/erik-odiin-787777-unsplash.jpg" alt="" class="img2 img-fluid"/>
-                        <div class="over text-center">
-                            <h4>باستا</h4>
-                            <a href="#">اضغظ للتفاصيل</a>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <img src="img/erik-odiin-787777-unsplash.jpg" alt="" class="img2 img-fluid"/>
-                        <div class="over text-center">
-                            <h4>باستا</h4>
-                            <a href="#">اضغظ للتفاصيل</a>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <img src="img/erik-odiin-787777-unsplash.jpg" alt="" class="img2 img-fluid"/>
-                        <div class="over text-center">
-                            <h4>باستا</h4>
-                            <a href="#">اضغظ للتفاصيل</a>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <img src="img/erik-odiin-787777-unsplash.jpg" alt="" class="img2 img-fluid"/>
-                        <div class="over text-center">
-                            <h4>باستا</h4>
-                            <a href="#">اضغظ للتفاصيل</a>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <img src="img/erik-odiin-787777-unsplash.jpg" alt="" class="img2 img-fluid"/>
-                        <div class="over text-center">
-                            <h4>باستا</h4>
-                            <a href="#">اضغظ للتفاصيل</a>
-                        </div>
-                    </div>
-             </div>
-         
+                </div>
             </div>
-                    </div>
-                  </div>
-                  </div>   
         </div>
-        <footer class="mt-50" style="margin-top: 0rem;">
+
+        <!--offers-->
+        <div class="offers">
+            <div class="row">
+                <div class="col-md-5">
+                    <img src="imgs/offers.png" alt="">
+                </div>
+                <div class="col-md-7">
+                    <div class="offer-info">
+                        <p>نقدم فى سفرة افضل العروض لكل انواع المطاعم والأكلات الشهية ماذا تنتظرابدأ الإستمتاع بالعروض الآن</p>
+                        <a href="offers-page.html" class="view-offers">شاهد العروض</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--sofra-app-->
+        <div class="sofra-app">
+            <div class="row">
+                <div class="info col-md-7">
+                    <h1>قم بتحميل التطبيق الخاص بنا الان</h1>
+                    <a href="#">
+                        حمل الان
+                        <i class="fab fa-android"></i>
+                    </a>
+                </div>
+                <div class="app-screens col-md-5">
+                    <img src="imgs/app-download.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <!--footer-->
+        <div class="footer">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-4 col-md-8 col-sm-9 offset-lg-4">
-                        <img src="img/edit.png" alt="">
-                        <h2 class="d-inline">من نحن</h2>
-                        <p class="lead">لوريم ايبرسيوم هو نموذج افتراضي يوضع في التصاميم لتعرض علي العميل ليتصور طريقه وضع النصوص بالتصاميم سواء كانت تصاميم مطبوعه ...بروشر او فلاير علي سبيل المثال و عند موافقه العميل المبد ئيه علي التصميم </p>
-                       <a href="#">
-                        <i class="fab fa-instagram fa-2x mr-3"></i>
-                       </a>
-                       <a href="#">
-                        <i class="fab fa-twitter fa-2x mr-3"></i>
-                       </a>
-                       <a href="#">
-                        <i class="fab fa-facebook fa-2x mr-3"></i>
-                       </a>
+                    <div class="info col-md-6">
+                        <div class="title">
+                            <img src="imgs/edit.png" alt="">
+                            <h3>من نحن</h3>
+                        </div>
+                        <div class="text">
+                            <p>
+                                هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها.
+                            </p>
+                        </div>
+                        <div class="social">
+                            <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+                            <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+                            <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+                        </div>
                     </div>
-                    <div class="col-lg-4 col-md-4 mt-md-5 mt-lg-0 mt-sm-5">
-                        <img src="img/sofra logo.png" alt="" class="img-fluid">
-                    </div>        
+                    <div class="logo col-md-6">
+                        <img src="imgs/sofra logo.png" alt="">
+                    </div>
                 </div>
             </div>
-        </footer>        
-    <script src="js/jquery-3.5.1.js"></script>
-    <script src="js/bootstrap.js"></script>
-    <script src="js/owl.carousel.js"></script>
-    <script src="js/script.js"></script>
-</body>
+        </div>
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="assets/js/jquery-3.5.1.min.js"></script>
+
+        <script src="assets/js/popper.min.js"></script>
+        
+        <script src="https://cdn.rtlcss.com/bootstrap/v4.2.1/js/bootstrap.min.js" integrity="sha384-a9xOd0rz8w0J8zqj1qJic7GPFfyMfoiuDjC9rqXlVOcGO/dmRqzMn34gZYDTel8k" crossorigin="anonymous"></script>
+        
+        <script src="assets/js/main.js"></script>
+    </body>
 </html>

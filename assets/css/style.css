@@ -162,7 +162,7 @@ input[type=number] {
 
 .nav-bar .navbar .right-part .search-field form input{
     height: 40px;
-    width: 260px;
+    width: 100%;
     border: none;
     border-radius: 5px;
     background-color: #f3f3f3;

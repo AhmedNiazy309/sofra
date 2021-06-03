@@ -1450,10 +1450,16 @@ input[type=number] {
 
 .orders-page-client .page-content .navigation .tab-content .tab-pane .current-orders .current-card .options .receive{
     background-color: #008d3d;
+    display: flex;
+    margin: 9% auto ;
+    justify-content: center;
 }
 
 .orders-page-client .page-content .navigation .tab-content .tab-pane .current-orders .current-card .options .refuse{
     background-color: #ec3454;
+    display: flex;
+    margin: auto;
+    justify-content: center;
 }
 
 
@@ -2194,5 +2200,25 @@ input[type=number] {
     .restaurant-seller-page .page-content .meals-list .meals .card,
     .restaurant-client-page .page-content .meals-list .meals .card{
         margin-bottom: 40px;
+    }
+}
+@media (max-width:426px) {
+    .intro a{
+        font-size: 35px;
+        padding: 10px 27px;
+    }
+    .intro h1{
+        font-size: 90px;
+    }
+    .offers .offer-info a{
+        font-size: 25px;
+        padding: 9px 19px;
+    }
+    .sofra-app .info a{
+        font-size: 34px;
+        padding: 3px 14px;
+    }
+    .offers-page .page-content .add-btn a{
+        padding: 10px 26px;
     }
 }

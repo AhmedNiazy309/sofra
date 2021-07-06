@@ -1,207 +1,281 @@
 <!doctype html>
 <html lang="en" dir="rtl">
-    <head>
-        <!-- Required meta tags -->
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-        <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="https://cdn.rtlcss.com/bootstrap/v4.2.1/css/bootstrap.min.css" integrity="sha384-vus3nQHTD+5mpDiZ4rkEPlnkcyTP+49BhJ4wJeJunw06ZAp+wzzeBPUXr42fi8If" crossorigin="anonymous">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-        <!--google fonts css-->
-        <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.rtlcss.com/bootstrap/v4.2.1/css/bootstrap.min.css"
+        integrity="sha384-vus3nQHTD+5mpDiZ4rkEPlnkcyTP+49BhJ4wJeJunw06ZAp+wzzeBPUXr42fi8If" crossorigin="anonymous">
 
-        <!--font awesome css-->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+    <!--google fonts css-->
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
 
-        
+    <!--font awesome css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
 
-        <!--jquery ui css-->
-        <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
 
-        <!--icheck css-->
-        <link href="assets/plugins/icheck/skins/square/blue.css" rel="stylesheet">
-        
-        <!--style css-->
-        <link rel="stylesheet" href="assets/css/style.css">
 
-        <title>Sofra</title>
-    </head>
-    <body class="orders-page-client">
-        <!--nav-->
-        <div class="nav-bar">
-            <nav class="navbar navbar-collapse-lg navbar-light">
-                <div class="right-part col-md-4">
-                    <div class="icons">
-                        <a href="cart-page.html" class="cart">
-                            <i class="fas fa-shopping-cart"></i>
-                        </a>
-                        <div class="user">
-                            <div class="dropdown">
-                                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    <i class="fas fa-user-circle main-color"></i>
-                                </button>
-                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                    <a class="dropdown-item secondary-color" href="orders-page-client.html">
-                                        <i class="fas fa-clipboard-list"></i>
-                                        <P>طلباتى</P>
-                                    </a>
-                                    <a class="dropdown-item secondary-color" href="offers-page.html">
-                                        <i class="fas fa-gift"></i>
-                                        <P>العروض</P>
-                                    </a>
-                                    <a class="dropdown-item secondary-color" href="#">
-                                        <i class="fas fa-envelope-square"></i>
-                                        <P>تواصل معنا</P>
-                                    </a>
-                                    <a class="dropdown-item secondary-color" href="my-account-page.html">
-                                        <i class="far fa-user"></i>
-                                        <P>حسابى</P>
-                                    </a>
-                                    <a class="dropdown-item secondary-color" href="#">
-                                        <i class="fas fa-sign-out-alt"></i>
-                                        <P>تسجيل الخروج</P>
-                                    </a>
-                                    
-                                </div>
+    <!--jquery ui css-->
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
+    <!--icheck css-->
+    <link href="assets/plugins/icheck/skins/square/blue.css" rel="stylesheet">
+
+    <!--style css-->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <title>Sofra</title>
+</head>
+
+<body class="orders-page-client">
+    <!--nav-->
+    <div class="nav-bar">
+        <nav class="navbar navbar-collapse-lg navbar-light">
+            <div class="right-part col-md-4">
+                <div class="icons">
+                    <a href="cart-page.html" class="cart">
+                        <i class="fas fa-shopping-cart"></i>
+                    </a>
+                    <div class="user">
+                        <div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="fas fa-user-circle main-color"></i>
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item secondary-color" href="orders-page-client.html">
+                                    <i class="fas fa-clipboard-list"></i>
+                                    <P>طلباتى</P>
+                                </a>
+                                <a class="dropdown-item secondary-color" href="offers-page.html">
+                                    <i class="fas fa-gift"></i>
+                                    <P>العروض</P>
+                                </a>
+                                <a class="dropdown-item secondary-color" href="#">
+                                    <i class="fas fa-envelope-square"></i>
+                                    <P>تواصل معنا</P>
+                                </a>
+                                <a class="dropdown-item secondary-color" href="my-account-page.html">
+                                    <i class="far fa-user"></i>
+                                    <P>حسابى</P>
+                                </a>
+                                <a class="dropdown-item secondary-color" href="#">
+                                    <i class="fas fa-sign-out-alt"></i>
+                                    <P>تسجيل الخروج</P>
+                                </a>
+
                             </div>
                         </div>
                     </div>
-                    <div class="search-field">
-                        <form>
-                            <input type="text" name="search" autocomplete="off">
-                            <button type="submit">
-                                <i class="fas fa-search main-color"></i>
-                            </button>
-                        </form>
-                    </div>
                 </div>
-
-                <a class="navbar-brand col-md-4 col-6" href="index.html">
-                    <img src="imgs/sofra logo.png">
-                </a>
-
-                <button class="navbar-toggler col-md-4 col-6" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon">
-                        <i class="fas fa-hamburger main-color"></i>
-                    </span>
-                </button>
-            
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Dropdown
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="#">Action</a>
-                                <a class="dropdown-item" href="#">Another action</a>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="#">Something else here</a>
-                            </div>
-                        </li>
-                    </ul>
+                <div class="search-field">
+                    <form>
+                        <input type="text" name="search" autocomplete="off">
+                        <button type="submit">
+                            <i class="fas fa-search main-color"></i>
+                        </button>
+                    </form>
                 </div>
-            </nav>
-        </div>
+            </div>
 
+            <a class="navbar-brand col-md-4 col-6" href="index.html">
+                <img src="imgs/sofra logo.png">
+            </a>
 
-        <!--page-content-->
-        <div class="page-content">
-            <div class="navigation">
-                <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
-                    <li class="nav-item col-6">
-                        <a class="nav-link active" id="pills-current-tab" data-toggle="pill" href="#pills-current" role="tab" aria-controls="pills-current" aria-selected="false">طلبات حالية</a>
+            <button class="navbar-toggler col-md-4 col-6" type="button" data-toggle="collapse"
+                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon">
+                    <i class="fas fa-hamburger main-color"></i>
+                </span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                     </li>
-                    <li class="nav-item col-6">
-                        <a class="nav-link" id="pills-previous-tab" data-toggle="pill" href="#pills-previous" role="tab" aria-controls="pills-previous" aria-selected="false">طلبات سابقة</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
                     </li>
                 </ul>
-                <div class="container">
-                    <div class="tab-content" id="pills-tabContent">
-                        <div class="tab-pane fade show active" id="pills-current" role="tabpanel" aria-labelledby="pills-current-tab">
-                            <div class="current-orders">
-                                <div class="current-card">
-                                    <div class="info row">
-                                        <div class="image">
-                                            <img src="imgs/burger.jpg" alt="">
-                                        </div>
-                                        <div class="details">
-                                            <h2 class="main-color">بيف برجر 250 جرام</h2>
-                                            <ul>
-                                                <li>رقم الطلب: <span>564416</span></li>
-                                                <li>المجموع: <span>75 ريال</span></li>
-                                            </ul>
-                                        </div>
-                                        <div class="options">
-                                            <button class="receive">استلام</button>
-                                            <button class="refuse">رفض</button>
-                                        </div>
-                                    </div>
+            </div>
+        </nav>
+    </div>
+
+
+    <!--page-content-->
+    <div class="page-content">
+        <div class="navigation">
+            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                <li class="nav-item col-6">
+                    <a class="nav-link active" id="pills-current-tab" data-toggle="pill" href="#pills-current"
+                        role="tab" aria-controls="pills-current" aria-selected="false">طلبات حالية</a>
+                </li>
+                <li class="nav-item col-6">
+                    <a class="nav-link" id="pills-previous-tab" data-toggle="pill" href="#pills-previous" role="tab"
+                        aria-controls="pills-previous" aria-selected="false">طلبات سابقة</a>
+                </li>
+            </ul>
+            <div class="container">
+                <div class="tab-content" id="pills-tabContent">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="rejected-orders mb-4">
+                                    <h5>الطلبات المستلمه :
+                                        <input type="text" disabled id="acceptnumber" value="0" />
+                                    </h5>
+                                </div>
+                            </div>
+                            <div class="col-md-3"></div>
+                            <div class="col-md-3">
+                                <div class="rejected-orders">
+                                    <h5>الطلبات المرفوضه :
+                                        <input type="text" disabled id="refucenumber" value="0" />
+                                    </h5>
                                 </div>
 
-                                <div class="current-card">
-                                    <div class="info row">
-                                        <div class="image">
-                                            <img src="imgs/burger.jpg" alt="">
-                                        </div>
-                                        <div class="details">
-                                            <h2 class="main-color">بيف برجر 250 جرام</h2>
-                                            <ul>
-                                                <li>رقم الطلب: <span>564416</span></li>
-                                                <li>المجموع: <span>75 ريال</span></li>
-                                            </ul>
-                                        </div>
-                                        <div class="options">
-                                            <button class="receive">استلام</button>
-                                            <button class="refuse">رفض</button>
-                                            
-                                        </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-pane fade show active" id="pills-current" role="tabpanel"
+                        aria-labelledby="pills-current-tab">
+                        <div class="current-orders">
+                            <div class="current-card">
+                                <div class="info row">
+                                    <div class="image">
+                                        <img src="imgs/burger.jpg" alt="">
+                                    </div>
+                                    <div class="details">
+                                        <h2 class="main-color">بيف برجر 250 جرام</h2>
+                                        <ul>
+                                            <li>رقم الطلب: <span>564416</span></li>
+                                            <li>المجموع: <span>75 ريال</span></li>
+                                        </ul>
+                                    </div>
+                                    <div class="options">
+                                        <button class="receive mb-4" data-toggle="modal"
+                                            data-target="#receive">استلام</button>
+                                        <button class="refuse" data-toggle="modal" data-target="#refuse">رفض</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="current-card">
+                                <div class="info row">
+                                    <div class="image">
+                                        <img src="imgs/burger.jpg" alt="">
+                                    </div>
+                                    <div class="details">
+                                        <h2 class="main-color">بيف برجر 250 جرام</h2>
+                                        <ul>
+                                            <li>رقم الطلب: <span>564416</span></li>
+                                            <li>المجموع: <span>75 ريال</span></li>
+                                        </ul>
+                                    </div>
+                                    <div class="options">
+                                        <button class="receive mb-4" data-toggle="modal"
+                                            data-target="#receive">استلام</button>
+                                        <button class="refuse" data-toggle="modal" data-target="#refuse">رفض</button>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="tab-pane fade" id="pills-previous" role="tabpanel" aria-labelledby="pills-previous-tab">
-                            <div class="previous-orders">
-                                <div class="previous-card">
-                                    <div class="info row">
-                                        <div class="image">
-                                            <img src="imgs/burger.jpg" alt="">
-                                        </div>
-                                        <div class="details">
-                                            <h2 class="main-color">بيف برجر 250 جرام</h2>
+                    </div>
+                    <div class="bs-example">
+                        <div id="receive" class="modal fade" tabindex="-1">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title">Modal Title</h5>
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    </div>
+                                    <div class="modal-body">
+                                        هل بالفعل تريد استلام الطلب
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary accept" onclick="acceptvalue()"
+                                            value="Increment Value">Save changes</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bs-example">
+                        <div id="refuse" class="modal fade" tabindex="-1">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title">Modal Title</h5>
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    </div>
+                                    <div class="modal-body">
+                                        هل بالفعل تريد رفض الطلب
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary refuseorder"
+                                            onclick="refusevalue()" value="Increment Value">Save changes</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-pane fade" id="pills-previous" role="tabpanel" aria-labelledby="pills-previous-tab">
+                        <div class="previous-orders">
+                            <div class="previous-card">
+                                <div class="info row">
+                                    <div class="image">
+                                        <img src="imgs/burger.jpg" alt="">
+                                    </div>
+                                    <div class="details">
+                                        <h2 class="main-color">بيف برجر 250 جرام</h2>
+                                        <ul>
+                                            <li>رقم الطلب: <span>564416</span></li>
+                                            <li>السعر: <span>75 ريال</span></li>
+                                            <li>التوصيل: <span>10 ريال</span></li>
+                                            <li>الاجمالى: <span>85 ريال</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="previous-card">
+                                <div class="info row">
+                                    <div class="image">
+                                        <img src="imgs/burger.jpg" alt="">
+                                    </div>
+                                    <div class="details">
+                                        <h2 class="main-color">بيف برجر 250 جرام</h2>
+                                        <ul>
                                             <ul>
                                                 <li>رقم الطلب: <span>564416</span></li>
                                                 <li>السعر: <span>75 ريال</span></li>
                                                 <li>التوصيل: <span>10 ريال</span></li>
                                                 <li>الاجمالى: <span>85 ريال</span></li>
                                             </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                                
-                                <div class="previous-card">
-                                    <div class="info row">
-                                        <div class="image">
-                                            <img src="imgs/burger.jpg" alt="">
-                                        </div>
-                                        <div class="details">
-                                            <h2 class="main-color">بيف برجر 250 جرام</h2>
-                                            <ul>
-                                                <ul>
-                                                    <li>رقم الطلب: <span>564416</span></li>
-                                                    <li>السعر: <span>75 ريال</span></li>
-                                                    <li>التوصيل: <span>10 ريال</span></li>
-                                                    <li>الاجمالى: <span>85 ريال</span></li>
-                                                </ul>
-                                            </ul>
-                                        </div>
+                                        </ul>
                                     </div>
                                 </div>
                             </div>
@@ -210,46 +284,52 @@
                 </div>
             </div>
         </div>
+    </div>
 
-        
-        <!--footer-->
-        <div class="footer">
-            <div class="container">
-                <div class="row">
-                    <div class="info col-md-6">
-                        <div class="title">
-                            <img src="imgs/edit.png" alt="">
-                            <h3>من نحن</h3>
-                        </div>
-                        <div class="text">
-                            <p>
-                                هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها.
-                            </p>
-                        </div>
-                        <div class="social">
-                            <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
-                            <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
-                            <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
-                        </div>
+
+    <!--footer-->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="info col-md-6">
+                    <div class="title">
+                        <img src="imgs/edit.png" alt="">
+                        <h3>من نحن</h3>
                     </div>
-                    <div class="logo col-md-6">
-                        <img src="imgs/sofra logo.png" alt="">
+                    <div class="text">
+                        <p>
+                            هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على
+                            الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها.
+                        </p>
                     </div>
+                    <div class="social">
+                        <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+                        <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+                        <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+                    </div>
+                </div>
+                <div class="logo col-md-6">
+                    <img src="imgs/sofra logo.png" alt="">
                 </div>
             </div>
         </div>
+    </div>
 
-        <!-- Optional JavaScript -->
-        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-        <script src="assets/js/jquery-3.5.1.min.js"></script>
-        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="assets/js/jquery-3.5.1.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 
-        <script src="assets/js/popper.min.js"></script>
-        
-        <script src="https://cdn.rtlcss.com/bootstrap/v4.2.1/js/bootstrap.min.js" integrity="sha384-a9xOd0rz8w0J8zqj1qJic7GPFfyMfoiuDjC9rqXlVOcGO/dmRqzMn34gZYDTel8k" crossorigin="anonymous"></script>
-        
-        <script src="assets/plugins/icheck/icheck.js"></script>
+    <script src="assets/js/popper.min.js"></script>
 
-        <script src="assets/js/main.js"></script>
-    </body>
+    <script src="https://cdn.rtlcss.com/bootstrap/v4.2.1/js/bootstrap.min.js"
+        integrity="sha384-a9xOd0rz8w0J8zqj1qJic7GPFfyMfoiuDjC9rqXlVOcGO/dmRqzMn34gZYDTel8k" crossorigin="anonymous">
+    </script>
+
+    <script src="assets/plugins/icheck/icheck.js"></script>
+
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/modal.js"></script>
+</body>
+
 </html>

@@ -1,0 +1,30 @@
+
+h1 {
+    font-weight: bold;
+}
+.btn {
+    margin-bottom: 1em;
+    padding-bottom: 1em;
+}
+.credits {
+    padding: 2.5em 0;
+}
+.floater {
+    float: right;
+    margin: 0;
+    margin-left: 0.7em;
+}
+.clearfix {
+    clear: both;
+}
+.img-fluid{
+    height: auto;
+    max-width: 100%;
+}
+.img{
+    border-radius: 20px;
+    margin: 2%;
+}
+.floater2{
+    display:inline;
+}

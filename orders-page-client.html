@@ -7,8 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.rtlcss.com/bootstrap/v4.2.1/css/bootstrap.min.css"
-        integrity="sha384-vus3nQHTD+5mpDiZ4rkEPlnkcyTP+49BhJ4wJeJunw06ZAp+wzzeBPUXr42fi8If" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.rtlcss.com/bootstrap/v4.2.1/css/bootstrap.min.css" integrity="sha384-vus3nQHTD+5mpDiZ4rkEPlnkcyTP+49BhJ4wJeJunw06ZAp+wzzeBPUXr42fi8If" crossorigin="anonymous">
 
     <!--google fonts css-->
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
@@ -41,14 +40,17 @@
                     </a>
                     <div class="user">
                         <div class="dropdown">
-                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <i class="fas fa-user-circle main-color"></i>
                             </button>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                                 <a class="dropdown-item secondary-color" href="orders-page-client.html">
                                     <i class="fas fa-clipboard-list"></i>
                                     <P>طلباتى</P>
+                                </a>
+                                <a class="dropdown-item secondary-color" href="otlob.html">
+                                    <i class="fas fa-clipboard-list"></i>
+                                    <P>اطلب</P>
                                 </a>
                                 <a class="dropdown-item secondary-color" href="offers-page.html">
                                     <i class="fas fa-gift"></i>
@@ -85,9 +87,7 @@
                 <img src="imgs/sofra logo.png">
             </a>
 
-            <button class="navbar-toggler col-md-4 col-6" type="button" data-toggle="collapse"
-                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
+            <button class="navbar-toggler col-md-4 col-6" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon">
                     <i class="fas fa-hamburger main-color"></i>
                 </span>
@@ -102,8 +102,7 @@
                         <a class="nav-link" href="#">Link</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Dropdown
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -124,12 +123,10 @@
         <div class="navigation">
             <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
                 <li class="nav-item col-6">
-                    <a class="nav-link active" id="pills-current-tab" data-toggle="pill" href="#pills-current"
-                        role="tab" aria-controls="pills-current" aria-selected="false">طلبات حالية</a>
+                    <a class="nav-link active" id="pills-current-tab" data-toggle="pill" href="#pills-current" role="tab" aria-controls="pills-current" aria-selected="false">طلبات حالية</a>
                 </li>
                 <li class="nav-item col-6">
-                    <a class="nav-link" id="pills-previous-tab" data-toggle="pill" href="#pills-previous" role="tab"
-                        aria-controls="pills-previous" aria-selected="false">طلبات سابقة</a>
+                    <a class="nav-link" id="pills-previous-tab" data-toggle="pill" href="#pills-previous" role="tab" aria-controls="pills-previous" aria-selected="false">طلبات سابقة</a>
                 </li>
             </ul>
             <div class="container">
@@ -155,8 +152,7 @@
                         </div>
                     </div>
 
-                    <div class="tab-pane fade show active" id="pills-current" role="tabpanel"
-                        aria-labelledby="pills-current-tab">
+                    <div class="tab-pane fade show active" id="pills-current" role="tabpanel" aria-labelledby="pills-current-tab">
                         <div class="current-orders">
                             <div class="current-card">
                                 <div class="info row">
@@ -171,8 +167,7 @@
                                         </ul>
                                     </div>
                                     <div class="options">
-                                        <button class="receive mb-4" data-toggle="modal"
-                                            data-target="#receive">استلام</button>
+                                        <button class="receive mb-4" data-toggle="modal" data-target="#receive">استلام</button>
                                         <button class="refuse" data-toggle="modal" data-target="#refuse">رفض</button>
                                     </div>
                                 </div>
@@ -191,8 +186,7 @@
                                         </ul>
                                     </div>
                                     <div class="options">
-                                        <button class="receive mb-4" data-toggle="modal"
-                                            data-target="#receive">استلام</button>
+                                        <button class="receive mb-4" data-toggle="modal" data-target="#receive">استلام</button>
                                         <button class="refuse" data-toggle="modal" data-target="#refuse">رفض</button>
                                     </div>
                                 </div>
@@ -211,10 +205,8 @@
                                         هل بالفعل تريد استلام الطلب
                                     </div>
                                     <div class="modal-footer">
-                                        <button type="button" class="btn btn-secondary"
-                                            data-dismiss="modal">Close</button>
-                                        <button type="button" class="btn btn-primary accept" onclick="acceptvalue()"
-                                            value="Increment Value">Save changes</button>
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary accept" onclick="acceptvalue()" value="Increment Value">Save changes</button>
                                     </div>
                                 </div>
                             </div>
@@ -232,10 +224,8 @@
                                         هل بالفعل تريد رفض الطلب
                                     </div>
                                     <div class="modal-footer">
-                                        <button type="button" class="btn btn-secondary"
-                                            data-dismiss="modal">Close</button>
-                                        <button type="button" class="btn btn-primary refuseorder"
-                                            onclick="refusevalue()" value="Increment Value">Save changes</button>
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary refuseorder" onclick="refusevalue()" value="Increment Value">Save changes</button>
                                     </div>
                                 </div>
                             </div>
@@ -298,8 +288,7 @@
                     </div>
                     <div class="text">
                         <p>
-                            هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على
-                            الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها.
+                            هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها.
                         </p>
                     </div>
                     <div class="social">
@@ -322,8 +311,7 @@
 
     <script src="assets/js/popper.min.js"></script>
 
-    <script src="https://cdn.rtlcss.com/bootstrap/v4.2.1/js/bootstrap.min.js"
-        integrity="sha384-a9xOd0rz8w0J8zqj1qJic7GPFfyMfoiuDjC9rqXlVOcGO/dmRqzMn34gZYDTel8k" crossorigin="anonymous">
+    <script src="https://cdn.rtlcss.com/bootstrap/v4.2.1/js/bootstrap.min.js" integrity="sha384-a9xOd0rz8w0J8zqj1qJic7GPFfyMfoiuDjC9rqXlVOcGO/dmRqzMn34gZYDTel8k" crossorigin="anonymous">
     </script>
 
     <script src="assets/plugins/icheck/icheck.js"></script>

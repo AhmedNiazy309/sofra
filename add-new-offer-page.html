@@ -1,195 +1,199 @@
 <!doctype html>
 <html lang="en" dir="rtl">
-    <head>
-        <!-- Required meta tags -->
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-        <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="https://cdn.rtlcss.com/bootstrap/v4.2.1/css/bootstrap.min.css" integrity="sha384-vus3nQHTD+5mpDiZ4rkEPlnkcyTP+49BhJ4wJeJunw06ZAp+wzzeBPUXr42fi8If" crossorigin="anonymous">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-        <!--google fonts css-->
-        <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.rtlcss.com/bootstrap/v4.2.1/css/bootstrap.min.css" integrity="sha384-vus3nQHTD+5mpDiZ4rkEPlnkcyTP+49BhJ4wJeJunw06ZAp+wzzeBPUXr42fi8If" crossorigin="anonymous">
 
-        <!--font awesome css-->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+    <!--google fonts css-->
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
 
-        
+    <!--font awesome css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
 
-        <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-        
-        <!--style css-->
-        <link rel="stylesheet" href="assets/css/style.css">
 
-        <title>Sofra</title>
-    </head>
-    <body class="add-new-offer-page">
-        <!--nav-->
-        <div class="nav-bar">
-            <nav class="navbar navbar-collapse-lg navbar-light">
-                <div class="right-part col-md-4">
-                    <div class="icons">
-                        <a href="cart-page.html" class="cart">
-                            <i class="fas fa-shopping-cart"></i>
-                        </a>
-                        <div class="user">
-                            <div class="dropdown">
-                                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
+    <!--style css-->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <title>Sofra</title>
+</head>
+
+<body class="add-new-offer-page">
+    <!--nav-->
+    <div class="nav-bar">
+        <nav class="navbar navbar-collapse-lg navbar-light">
+            <div class="right-part col-md-4">
+                <div class="icons">
+                    <a href="cart-page.html" class="cart">
+                        <i class="fas fa-shopping-cart"></i>
+                    </a>
+                    <div class="user">
+                        <div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     <i class="fas fa-user-circle main-color"></i>
                                 </button>
-                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                    <a class="dropdown-item secondary-color" href="orders-page-client.html">
-                                        <i class="fas fa-clipboard-list"></i>
-                                        <P>طلباتى</P>
-                                    </a>
-                                    <a class="dropdown-item secondary-color" href="offers-page.html">
-                                        <i class="fas fa-gift"></i>
-                                        <P>العروض</P>
-                                    </a>
-                                    <a class="dropdown-item secondary-color" href="#">
-                                        <i class="fas fa-envelope-square"></i>
-                                        <P>تواصل معنا</P>
-                                    </a>
-                                    <a class="dropdown-item secondary-color" href="my-account-page.html">
-                                        <i class="far fa-user"></i>
-                                        <P>حسابى</P>
-                                    </a>
-                                    <a class="dropdown-item secondary-color" href="#">
-                                        <i class="fas fa-sign-out-alt"></i>
-                                        <P>تسجيل الخروج</P>
-                                    </a>
-                                    
-                                </div>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item secondary-color" href="orders-page-client.html">
+                                    <i class="fas fa-clipboard-list"></i>
+                                    <P>طلباتى</P>
+                                </a>
+                                <a class="dropdown-item secondary-color" href="offers-page.html">
+                                    <i class="fas fa-gift"></i>
+                                    <P>العروض</P>
+                                </a>
+                                <a class="dropdown-item secondary-color" href="#">
+                                    <i class="fas fa-envelope-square"></i>
+                                    <P>تواصل معنا</P>
+                                </a>
+                                <a class="dropdown-item secondary-color" href="my-account-page.html">
+                                    <i class="far fa-user"></i>
+                                    <P>حسابى</P>
+                                </a>
+                                <a class="dropdown-item secondary-color" href="#">
+                                    <i class="fas fa-sign-out-alt"></i>
+                                    <P>تسجيل الخروج</P>
+                                </a>
+
                             </div>
                         </div>
                     </div>
-                    <div class="search-field">
-                        <form>
-                            <input type="text" name="search" autocomplete="off">
-                            <button type="submit">
+                </div>
+                <div class="search-field">
+                    <form>
+                        <input type="text" name="search" autocomplete="off">
+                        <button type="submit">
                                 <i class="fas fa-search main-color"></i>
                             </button>
-                        </form>
-                    </div>
+                    </form>
                 </div>
+            </div>
 
-                <a class="navbar-brand col-md-4 col-6" href="index.html">
-                    <img src="imgs/sofra logo.png">
-                </a>
+            <a class="navbar-brand col-md-4 col-6" href="index.html">
+                <img src="imgs/sofra logo.png">
+            </a>
 
-                <button class="navbar-toggler col-md-4 col-6" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler col-md-4 col-6" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon">
                         <i class="fas fa-hamburger main-color"></i>
                     </span>
                 </button>
-            
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 Dropdown
                             </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="#">Action</a>
-                                <a class="dropdown-item" href="#">Another action</a>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="#">Something else here</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+
+    <!--page-content-->
+    <div class="page-content">
+        <div class="container">
+            <h1 class="main-color text-center">اضافة عرض جديد</h1>
+            <div class="offer-form">
+                <form class="text-center">
+                    <div class="form-group choose-file">
+                        <div class="photo">
+                            <img id="output" src="imgs/default-image.jpg" alt="">
+                            <input type="file" id="file" onchange="loadFile(event)" name="offer-photo" class="inputfile" data-multiple-caption="{count} files selected" multiple>
+                        </div>
+
+                        <h3 class="secondary-color">صورة العرض</h3>
+                    </div>
+
+                    <div class="form-group offer-name">
+                        <input name="offer-name" type="text" class="form-control" placeholder="اسم العرض">
+                    </div>
+                    <div class="form-group describtion">
+                        <textarea name="describtion" id="offerdescribtion" placeholder="وصف مختصر"></textarea>
+                    </div>
+                    <div class="form-group price">
+                        <input name="price" type="number" class="form-control" placeholder="السعر">
+                    </div>
+                    <div class="form-group date">
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="from">
+                                    <i class="fas fa-calendar-alt secondary-color"></i>
+                                    <input name="from" placeholder="من" type="text" autocomplete id="from">
+                                </div>
                             </div>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
+                            <div class="col-6">
+                                <div class="to">
+                                    <i class="fas fa-calendar-alt secondary-color"></i>
+                                    <input name="to" placeholder="الى" type="text" id="to" autocomplete>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn">اضافة</button>
+                </form>
+            </div>
         </div>
+    </div>
 
 
-        <!--page-content-->
-        <div class="page-content">
-            <div class="container">
-                <h1 class="main-color text-center">اضافة عرض جديد</h1>
-                <div class="offer-form">
-                    <form class="text-center">
-                        <div class="form-group choose-file">
-                            <div class="photo">
-                                <img src="imgs/default-image.jpg" alt="">
-                                <input type="file" id="file" name="offer-photo" class="inputfile" data-multiple-caption="{count} files selected" multiple>
-                            </div>
-                            <h3 class="secondary-color">صورة العرض</h3>
-                        </div>
-
-                        <div class="form-group offer-name">
-                            <input name="offer-name" type="text" class="form-control" placeholder="اسم العرض">
-                        </div>
-                        <div class="form-group describtion">
-                            <textarea name="describtion" id="offerdescribtion" placeholder="وصف مختصر"></textarea>
-                        </div>
-                        <div class="form-group price">
-                            <input name="price" type="number" class="form-control" placeholder="السعر">
-                        </div>
-                        <div class="form-group date">
-                            <div class="row">
-                                <div class="col-6">
-                                    <div class="from">
-                                        <i class="fas fa-calendar-alt secondary-color"></i>
-                                        <input name="from" placeholder="من" type="text" autocomplete id="from">
-                                    </div>
-                                </div>
-                                <div class="col-6">
-                                    <div class="to">
-                                        <i class="fas fa-calendar-alt secondary-color"></i>
-                                        <input name="to" placeholder="الى"type="text" id="to" autocomplete>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <button type="submit" class="btn">اضافة</button>
-                    </form>
+    <!--footer-->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="info col-md-6">
+                    <div class="title">
+                        <img src="imgs/edit.png" alt="">
+                        <h3>من نحن</h3>
+                    </div>
+                    <div class="text">
+                        <p>
+                            هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها.
+                        </p>
+                    </div>
+                    <div class="social">
+                        <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+                        <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+                        <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+                    </div>
+                </div>
+                <div class="logo col-md-6">
+                    <img src="imgs/sofra logo.png" alt="">
                 </div>
             </div>
         </div>
+    </div>
 
-        
-        <!--footer-->
-        <div class="footer">
-            <div class="container">
-                <div class="row">
-                    <div class="info col-md-6">
-                        <div class="title">
-                            <img src="imgs/edit.png" alt="">
-                            <h3>من نحن</h3>
-                        </div>
-                        <div class="text">
-                            <p>
-                                هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها.
-                            </p>
-                        </div>
-                        <div class="social">
-                            <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
-                            <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
-                            <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
-                        </div>
-                    </div>
-                    <div class="logo col-md-6">
-                        <img src="imgs/sofra logo.png" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="assets/js/jquery-3.5.1.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 
-        <!-- Optional JavaScript -->
-        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-        <script src="assets/js/jquery-3.5.1.min.js"></script>
-        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="assets/js/popper.min.js"></script>
 
-        <script src="assets/js/popper.min.js"></script>
+    <script src="https://cdn.rtlcss.com/bootstrap/v4.2.1/js/bootstrap.min.js" integrity="sha384-a9xOd0rz8w0J8zqj1qJic7GPFfyMfoiuDjC9rqXlVOcGO/dmRqzMn34gZYDTel8k" crossorigin="anonymous"></script>
 
-        <script src="https://cdn.rtlcss.com/bootstrap/v4.2.1/js/bootstrap.min.js" integrity="sha384-a9xOd0rz8w0J8zqj1qJic7GPFfyMfoiuDjC9rqXlVOcGO/dmRqzMn34gZYDTel8k" crossorigin="anonymous"></script>
-        
-        <script src="assets/js/main.js"></script>
-    </body>
+    <script src="assets/js/main.js"></script>
+</body>
+
 </html>

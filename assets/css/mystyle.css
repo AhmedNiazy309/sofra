@@ -1,30 +1,92 @@
-
 h1 {
     font-weight: bold;
 }
+
 .btn {
     margin-bottom: 1em;
     padding-bottom: 1em;
 }
+
 .credits {
     padding: 2.5em 0;
 }
+
 .floater {
     float: right;
     margin: 0;
     margin-left: 0.7em;
 }
+
 .clearfix {
     clear: both;
 }
-.img-fluid{
+
+.img-fluid {
     height: auto;
     max-width: 100%;
 }
-.img{
+
+.img {
     border-radius: 20px;
     margin: 2%;
 }
-.floater2{
-    display:inline;
+
+.floater2 {
+    display: inline;
+}
+
+.photo,
+.choose-file .photo {
+    display: inline-block;
+    position: relative;
+}
+
+.choose-file .photo input,
+.choose-file .photo input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 5;
+    cursor: pointer;
+    opacity: 0;
+}
+
+.choose-file .photo img,
+.choose-file .photo img {
+    width: 250px;
+    box-shadow: 2px 2px 6px #c6c6c6;
+}
+
+.choose-file h3,
+.choose-file h3 {
+    margin-bottom: 0;
+    margin-top: 20px;
+}
+
+.choose-file {
+    text-align: center;
+    margin: 3% 0;
+}
+
+.panel {
+    margin: 0;
+}
+
+.panel-footer {
+    padding: 2% 2% 3%;
+    background-color: #f8f5f0;
+    border-top: 1px solid #dfd7ca;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.float-left {
+    float: left
+}
+
+.checkbox.floater input {
+    position: relative;
+    margin: 0;
 }

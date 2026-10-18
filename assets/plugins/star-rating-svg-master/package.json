@@ -22,7 +22,7 @@
   "homepage": "nashio.github.com/star-rating-svg",
   "license": "MIT",
   "devDependencies": {
-    "grunt": "~0.4.5",
+    "grunt": "~1.6.3",
     "grunt-cli": "~0.1.13",
     "grunt-contrib-concat": "^0.5.1",
     "grunt-contrib-jshint": "^0.11.0",
